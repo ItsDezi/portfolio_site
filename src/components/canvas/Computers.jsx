@@ -1,28 +1,38 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas, extend } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-extend ({OrbitControls, Preload, useGLTF})
+
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/sports_bike/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
+      {/* Stock intensity of hemishpere light is 0.15 */}
+      <hemisphereLight intensity={3.15} groundColor='black' />
+      <spotLight 
+        position={[-2, -3.25, 0]}
+        angle={Math.PI/3}
         penumbra={1}
-        intensity={1}
-        castShadow
+        intensity={8}
+        castShadow={true}
         shadow-mapSize={1024}
       />
-      <pointLight intensity={1} />
+      <spotLight 
+        position={[2, -3.25, 0]}
+        angle={Math.PI/3}
+        penumbra={1}
+        intensity={8}
+        castShadow={true}
+        shadow-mapSize={1024}
+      />
+      <pointLight intensity={9} />
+      {/*Stock scale for primitive is scale={isMobile ? 0.7 : 0.75}*/}
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 2.75 : 3.5}
+        position={isMobile ? [0, -3, 0] : [0, -3.25, 0]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -66,6 +76,7 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          autoRotate={true}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
