@@ -9,12 +9,14 @@ import {
     css,
     reactjs,
     redux,
+    cpp,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
+    python,
     meta,
     genetec,
     opw,
@@ -83,20 +85,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "C Plus Plus",
+      icon: cpp,
     },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -107,12 +101,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Python",
+      icon: python,
     },
   ];
   
@@ -168,8 +158,8 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Web developer",
+      company_name: "ENGR Tutoring",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",

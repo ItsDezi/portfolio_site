@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp_logo.png";
+import python from "./tech/python_logo.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -52,10 +54,12 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  python,
   redux,
   tailwind,
   typescript,
   threejs,
+  cpp,
   meta,
   shopify,
   starbucks,
