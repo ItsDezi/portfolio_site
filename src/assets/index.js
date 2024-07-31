@@ -27,6 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import concordia from "./company/concordia_logo.png";
 import genetec from "./company/Genetec_logo.png";
+import octobins from "./company/octobins_logo.png";
+import opw from "./company/opw_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,6 +62,8 @@ export {
   tesla,
   concordia,
   genetec,
+  opw,
+  octobins,
   carrent,
   jobit,
   tripguide,
