@@ -16,7 +16,9 @@ import {
     git,
     figma,
     docker,
+    sql,
     python,
+    vhdl,
     meta,
     genetec,
     opw,
@@ -81,6 +83,10 @@ import {
       icon: typescript,
     },
     {
+      name: "SQL",
+      icon: sql,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
@@ -93,8 +99,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "VHDL",
+      icon: vhdl,
     },
     {
       name: "git",

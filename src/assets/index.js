@@ -22,6 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp_logo.png";
 import python from "./tech/python_logo.png";
+import vhdl from "./tech/vhdl_logo.png";
+import sql from "./tech/sql_logo.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,6 +62,8 @@ export {
   typescript,
   threejs,
   cpp,
+  vhdl,
+  sql,
   meta,
   shopify,
   starbucks,
