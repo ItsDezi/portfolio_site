@@ -19,6 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    concordia,
     carrent,
     jobit,
     tripguide,
@@ -117,16 +118,15 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Bachelors of Computer Engineering (ECP)",
+      company_name: "Concordia",
+      icon: concordia,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "2019 - 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned core computer science concepts across the tech stack from low level hardware design to higher level programming.",
+        "Collaborated with teams to engage in academic and personal projects.",
+        "Learned key concepts such as hardware design, databases, networks and protocols, real time operating systems, artificial intelligence, and data structures/algorithms.",
       ],
     },
     {
