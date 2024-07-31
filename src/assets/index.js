@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import concordia from "./company/concordia_logo.png";
+import genetec from "./company/Genetec_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +59,7 @@ export {
   starbucks,
   tesla,
   concordia,
+  genetec,
   carrent,
   jobit,
   tripguide,
