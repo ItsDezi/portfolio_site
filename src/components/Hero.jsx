@@ -15,9 +15,9 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915eff]'>Julien</span>
           </h1>
           <p className='text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100'>
-            I'm a dev...
+            Welcome to my portfolio!
             <br className='sm:block hidden' />
-            hehe
+            Here's a little about me...
           </p>
         </div>
       </div>
