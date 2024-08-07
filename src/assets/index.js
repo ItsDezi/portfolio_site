@@ -34,6 +34,7 @@ import concordia from "./company/concordia_logo.png";
 import genetec from "./company/Genetec_logo.png";
 import octobins from "./company/octobins_logo.png";
 import opw from "./company/opw_logo.png";
+import stem_solvers from "./company/stem_solvers.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -76,6 +77,7 @@ export {
   concordia,
   genetec,
   opw,
+  stem_solvers,
   octobins,
   carrent,
   jobit,
