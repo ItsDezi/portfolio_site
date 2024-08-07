@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.108.4",
     "@react-three/fiber": "^8.16.8",
+    "aws-amplify": "^6.4.4",
     "framer-motion": "^11.3.6",
     "maath": "^0.10.8",
     "react": "^18.3.1",
@@ -23,16 +24,24 @@
     "three": "^0.166.1"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.0.4",
+    "@aws-amplify/backend-cli": "^1.2.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
+    "aws-cdk": "^2.151.0",
+    "aws-cdk-lib": "^2.151.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4",
     "vite": "^5.3.4"
   }
 }
