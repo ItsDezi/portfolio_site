@@ -24,6 +24,7 @@ import cpp from "./tech/cpp_logo.png";
 import python from "./tech/python_logo.png";
 import vhdl from "./tech/vhdl_logo.png";
 import sql from "./tech/sql_logo.png";
+import firebase from "./tech/firebase.webp";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,7 +38,10 @@ import opw from "./company/opw_logo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import employMe from "./employMe.png";
+import eternity2puzzle from "./eternity2puzzle.jpg";
+import ai_cnn from "./ai_cnn.png";
+import hiveFlyers from "./hiveflyers.png";
 export {
   logo,
   backend,
@@ -64,6 +68,7 @@ export {
   cpp,
   vhdl,
   sql,
+  firebase,
   meta,
   shopify,
   starbucks,
@@ -75,4 +80,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  employMe,
+  hiveFlyers,
+  ai_cnn,
+  eternity2puzzle,
 };

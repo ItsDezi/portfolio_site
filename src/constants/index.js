@@ -17,12 +17,17 @@ import {
     figma,
     docker,
     sql,
+    firebase,
     python,
     vhdl,
     meta,
     genetec,
     opw,
     octobins,
+    employMe,
+    eternity2puzzle,
+    ai_cnn,
+    hiveFlyers,
     concordia,
     carrent,
     jobit,
@@ -110,6 +115,10 @@ import {
       name: "Python",
       icon: python,
     },
+    {
+      name: "Firebase",
+      icon: firebase,
+    }
   ];
   
   const experiences = [
@@ -207,67 +216,88 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Facial expression recognition AI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A convolutional neural network that was trained to detect the emotion that an individual was expressing. Every aspect of the pipeline was performed, including data acquisition, data cleaning, hyperparameter settings, training, validation, and bias detection.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pyTorch",
+          color: "green-text-gradient",
+        },
+        {
+          name: "numPy",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ai_cnn,
+      source_code_link: "https://github.com/COMP472/projectPart2/tree/main",
+    },
+    {
+      name: "EmployMe",
+      description:
+        "Web application that enables users to search for job openings, update their personal information, contact recruiters. It also allows recruiters to manage job postings, and scout job candidates. There are also admin functionalities.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: employMe,
+      source_code_link: "https://github.com/COENS-SOENS/-COENS-SOENS-soen341project2023-",
     },
     {
-      name: "Job IT",
+      name: "Eternity 2 puzzle algorithm",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An early project of mine that consisted of a program written to solve the 16x16 puzzle that remains unsolved in the world as well as smaller versions of it. It features the A* search pathfinding algorithm.",
       tags: [
         {
-          name: "react",
+          name: "Algorithm development",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Java",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Data structures",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: eternity2puzzle,
+      source_code_link: "https://github.com/ItsDezi/Eternity2Puzzle/tree/main",
     },
     {
-      name: "Trip Guide",
+      name: "HiveFlyers",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "My multidisciplinary capstone project with the scope of drones working cooperatively to connect and disconnect from eachother mid-flight. I'm proud to say that we achieved third place at the ICAO advanced air mobility day conference capstone competition.",
       tags: [
         {
-          name: "nextjs",
+          name: "Robot Operating Systems(ROS)",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "C++",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: hiveFlyers,
+      source_code_link: "https://github.com/HiveFlyers",
     },
   ];
   
