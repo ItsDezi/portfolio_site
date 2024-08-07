@@ -178,7 +178,7 @@ import {
       company_name: "STEM Solvers",
       icon: stem_solvers,
       iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
+      date: "Jul 2024 - Present",
       points: [
         "Developing and maintaining a web application using React.js and other related technologies.",
         "Development plannification to ensure project scope is achieved.",
